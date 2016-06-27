@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/mine/prd/styles/usage/app.css"/>
+		<title>网易新闻</title>
+		<script type="text/javascript">
+			//解决iphone的默认事件（窗口可拖动）
+			document.ontouchmove = function(e){
+				if (e.target.tagName.touppercase() !=='IFRAME'){
+					e.preventDefault();
+				}
+			};
+		</script>
+	</head>
+	<body>
+	</body>
+	
+	<script src="/mine/prd/scripts/app.js" type="text/javascript" charset="utf-8"></script>
+</html>

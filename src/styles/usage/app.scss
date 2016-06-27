@@ -1,0 +1,32 @@
+@charset "utf-8";
+//
+@import "../lib/core/reset";
+@import "./core/common";
+@import "./core/swiper-3.3.1.min.css";
+//Views 引用视图
+@import "./module/index";
+@import "./module/news";
+@import "./module/read";
+@import "./module/play";
+@import "./module/search";
+@import "./module/my";
+
+
+
+// layout
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}

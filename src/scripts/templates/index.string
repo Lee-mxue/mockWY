@@ -1,0 +1,29 @@
+<div class="m-index">
+	<div class="l-container">
+		
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="switch.tabs" data-tag="news">
+				<i class="yo-icon">&#xe650;</i>
+				<p>新闻</p>
+			</li>
+			<li action-type="switch.tabs" data-tag="read">
+				<i class="yo-ico">&#xe62e;</i>
+				<p>阅读</p>
+			</li>
+			<li action-type="switch.tabs" data-tag="play">
+				<i class="yo-ico">&#xf0067;</i>
+				<p>视听</p>
+			</li>
+			<li action-type="switch.tabs" data-tag="search">
+				<i class="yo-ico">&#xe657;</i>
+				<p>发现</p>
+			</li>
+			<li action-type="switch.tabs" data-tag="my">
+				<i class="yo-ico">&#xe654;</i>
+				<p>我的</p>
+			</li>
+		</ul>
+	</footer>
+</div>

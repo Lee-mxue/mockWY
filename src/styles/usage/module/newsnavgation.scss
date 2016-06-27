@@ -1,0 +1,18 @@
+@import "../../lib/widget/yo-dialog";
+
+@include yo-dialog(
+    $name : news
+){
+    table{
+        margin: .05rem auto;
+        td{
+            height: .2rem;
+            line-height: .2rem;
+            width: .4rem;
+            text-align: center;
+            border: .01rem;
+            background: #fff;
+            
+        }
+    }
+}

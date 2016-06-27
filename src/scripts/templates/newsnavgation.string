@@ -1,0 +1,34 @@
+<div class="yo-dialog news yo-dialog-news">
+    <div class="bd">
+        <p>切换栏目</p>
+        <table border="none" cellspacing="" cellpadding="">
+        	<tbody>		
+        	<tr>
+        		<td>头条</td>
+        		<td>娱乐</td>
+        		<td>热点</td>
+        		<td>体育</td>
+        	</tr>
+        	<tr>
+        		<td>昆明</td>
+        		<td>财经</td>
+        		<td>科技</td>
+        		<td>图片</td>
+        	</tr>
+        	<tr>
+        		<td>跟帖</td>
+        		<td>直播</td>
+        		<td>时尚</td>
+        		<td>轻松一刻</td>
+        	</tr>
+        	<tr>
+        		<td>汽车</td>
+        		<td>段子</td>
+        		<td>军事</td>
+        		<td>房产</td>
+        	</tr>
+        	</tbody>
+        </table>
+    </div>
+
+</div>
